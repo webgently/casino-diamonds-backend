@@ -1,4 +1,4 @@
-# Mine Backend Services
+# Diamonds Backend Services
 
 ## Getting Started
 
