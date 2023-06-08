@@ -1,0 +1,8 @@
+{
+  "development": false,
+  "debug": true,
+  "appKey": "diamonds-0.1.0",
+  "port": 5000,
+  "database": "diamonds-230520",
+  "secret": "168oB5fw4NquEJeR9c1kqvosUeAwVAgh"
+}
