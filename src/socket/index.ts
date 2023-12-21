@@ -211,7 +211,7 @@ const getBalance = async (userid: string) => {
 let users = {} as { [key: string]: UserType };
 
 export const initSocket = (io: Server) => {
-  io.of('/diamonds').on('connection', async (socket: Socket) => {
+  io.on('connection', async (socket: Socket) => {
     console.log('new User connected:' + socket.id);
 
     socket.on('disconnect', async () => {
